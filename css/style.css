@@ -54,6 +54,24 @@ section, footer {
     padding: 6em 2.5em;
 }
 
+
+/* ------------ Scroll bar : new design ------------ */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    background: linear-gradient(135deg, #252628, #17181a);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+
+
+
 /* ------------------------ Header ---------------------- */
 header {
     background: url(img/fond.jpg) no-repeat center;
